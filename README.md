@@ -1,6 +1,6 @@
 ## North by Northwestern's 2015 Fall Magazine
 
-This is the repository for North by Northwestern's 2015 fall magazine. This repo, unfortunotely, does not include the full git history for the project, but instead the final versions of each story. 
+This is the repository for North by Northwestern's 2015 fall magazine. This repo, unfortunately, does not include the full git history for the project, but instead the final versions of each story. 
 
 #### Deploying
 To deploy your project to Amazon S3, you'll need to add a profile to your ~/.aws/config. It should look something like this:

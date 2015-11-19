@@ -27,7 +27,7 @@ header {
 .caption {
 	color: #aaaaaa;
 	font-weight: 300;
-	font-size: 0.9em;
+	font-size: 0.75em;
 	font-family: "Roboto", sans-serif;
 	text-align: right;
 	margin-top: 0px;
@@ -79,7 +79,11 @@ hr {
 	width: 10em;
 	margin-bottom: 3em;
 	border: 1px solid #C199D6;
+}
 
+span {
+	background-color: #e2d0ec;
+	padding: 0.25em;
 }
 
 /* BODY */
@@ -146,7 +150,11 @@ figure {
 
 /* QUOTES */
 
-.quote, .definition {
+.quote-def {
+	width: 50%;
+}
+
+.quote, {
 	display: block;
 	width: 350px;
 	color: #555555;
@@ -185,6 +193,10 @@ figure {
 .definition {
 	width: 200px;
 	font-size: 0.9em;
+	display: block;
+	font-family: "Roboto", sans-serif;
+	color: #555555;
+	font-weight: 300;
 }
 
 /* FOOTER BAR, FOOTER TEXT */
@@ -234,7 +246,6 @@ footer p a {
 	}
 
 	h2{
-		margin-top: -50px;
 		width: 85%;
 		margin-left: auto;
 		margin-right: auto;
@@ -250,47 +261,28 @@ footer p a {
 		width: 100%;
 	}
 
+	.definition {
+		width: 100px;
+	}
 	.quote {
 		display: block;
-		width: 50%;
-		color: #555555;
-		font-size: 1.125em;
-		line-height: 1.5em;
+		width: 100px;
 		font-family: "Roboto", sans-serif;
-		text-align: center;
 	}
 	
 	.right {
-		border-top: 2px solid #C199D6;
-		border-bottom: 2px solid #C199D6;
-		border-right: none;
-		border-left: none;
-		padding-right: 1.3em;
+		border-left: 2px solid #C199D6;
+		margin-right: 7%;
 		margin-left: 1em;
 		margin-top: 1em;
+		padding-left: 1em;
 	}
 
 	.left {
-		border-top: 2px solid #C199D6;
-		border-bottom: 2px solid #C199D6;
-		border-right: none;
-		border-left: none;
-		padding-left: 1.3em;
-		margin-left: 4em;
-		margin-top: 1em;
-	}
-
-	.definition-left {
-		text-align: right;
-		font-size: 0.8em;
-		width: 100px;
-		margin-right: 2em;
-		padding-right: 2em;
-		margin-left: 0;
 		border-right: 2px solid #C199D6;
-		border-top: none;
-		border-bottom: none;
-		border-left: none;
+		margin-left: 5%;
+		margin-top: 1em;
+		padding-right: 1em;
 	}
 
 	footer {
@@ -328,6 +320,11 @@ footer p a {
 		margin-top: 40px;
 		font-weight: 400;
 	}
+
+	.definition {
+		width: 150px;
+		margin-right: 5%;
+	}
 }
 
 @media screen and (min-width: 1024px) {
@@ -357,5 +354,9 @@ footer p a {
 		text-align: center;
 		padding-top: 1em;
 		padding-bottom: 1em;
+	}
+
+	.right {
+		padding-right: 10%;
 	}
 }

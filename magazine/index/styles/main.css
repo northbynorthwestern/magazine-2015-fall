@@ -277,7 +277,7 @@ section {
       section a.featured#beyond-the-binary .image {
         background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/beyond-the-binary.png");
         background-position: center right; }
-    
+
     section a:hover {
       text-decoration: none;
       border: 1px solid rgba(80, 31, 132, 0.2); }
@@ -293,7 +293,7 @@ section {
         background-image: linear-gradient(transparent, transparent), url("../img/wild-thing.png"); }
       section a:hover.featured#beyond-the-binary .image {
         background-image: linear-gradient(transparent, transparent), url("../img/beyond-the-binary.png"); }
-      
+
       section a:hover.featured .image {
         background-size: cover;
         height: 250px; }

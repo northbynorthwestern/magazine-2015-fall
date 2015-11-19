@@ -11,10 +11,6 @@ aws_access_key_id=YOUR_UNIQUE_ID
 aws_secret_access_key=YOUR_SECRET_ACCESS_KEY
 ```
 
+Once you have that set up, you should be able to run `sh ./deploy_to_s3.sh` to sync with s3.
+
 **Note**: This assumes you have already installed the `awscli` tools. If you do not have an access_key_id or a secret_access_key, contact Alex Duner for more information.
-
-Once you have that set up, you can run the following command to sync with s3:
-
-``sh
-sh ./deploy_to_s3.sh
-``

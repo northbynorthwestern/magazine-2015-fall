@@ -122,7 +122,8 @@ hr {
 	text-decoration: underline;
 	color: #000;
 	font-size: 0.8em;
-	text-align: center;
+	text-align: center !important;
+	display: none;
 }
 
 a {
@@ -350,8 +351,12 @@ iframe {
 		display: none;
 	}
 
-	table {
+	table, .sub-subhead {
 		display: inline;
+	}
+
+	.sub-subhead {
+		text-align: center !important;
 	}
 }
 

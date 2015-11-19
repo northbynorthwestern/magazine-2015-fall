@@ -101,10 +101,10 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Proxima-Nova", Helvetica, sans-serif; }
+  font-family: "Roboto", Helvetica, sans-serif; }
 
 .prose {
-  font-family: "Proxima-Nova", Helvetica, sans-serif; }
+  font-family: "Roboto", Helvetica, sans-serif; }
   .prose p {
     margin-bottom: .75em;
     margin-top: .75em; }
@@ -143,7 +143,7 @@ a {
 
 html,
 body {
-  font-family: 'proxima-nova';
+  font-family: 'Roboto';
   overflow-x: hidden !important;
   width: auto !important; }
 
@@ -163,7 +163,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'proxima-nova'; }
+  font-family: 'Roboto'; }
 
 header {
   margin-bottom: 2em;
@@ -262,44 +262,44 @@ section {
           text-transform: uppercase; }
         section a.featured .image h5 {
           text-transform: none; }
-      section a.featured#finding-solace .image {
-        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/finding-solace.jpg"); }
-      section a.featured#march-madness .image {
-        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/march-madness.jpg"); }
-      section a.featured#quota-of-four .image {
-        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/quota-of-four.jpg"); }
+      section a.featured#out-of-the-dungeon .image {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/out-of-the-dungeon.png"); }
+      section a.featured#science-in-the-sky .image {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/science-in-the-sky.png"); }
+      section a.featured#made-of-iiron .image {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/made-of-iiron.png"); }
+        section a.featured#northwesterns-mental-health-problem .image {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/northwesterns-mental-health-problem.jpg"); }
       section a.featured#life-advice .image {
         background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/life-advice.jpg"); }
-      section a.featured#harmony .image {
-        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/harmony.jpg"); }
-      section a.featured#unaware .image {
-        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/unaware.jpg");
+      section a.featured#wild-thing .image {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/wild-thing.png"); }
+      section a.featured#beyond-the-binary .image {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/beyond-the-binary.png");
         background-position: center right; }
-      section a.featured#meet-artist .image {
-        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/meat-artist.jpg"); }
+    
     section a:hover {
       text-decoration: none;
       border: 1px solid rgba(80, 31, 132, 0.2); }
-      section a:hover.featured#finding-solace .image {
-        background-image: linear-gradient(transparent, transparent), url("../img/finding-solace.jpg"); }
-      section a:hover.featured#march-madness .image {
-        background-image: linear-gradient(transparent, transparent), url("../img/march-madness.jpg"); }
-      section a:hover.featured#quota-of-four .image {
-        background-image: linear-gradient(transparent, transparent), url("../img/quota-of-four.jpg"); }
+      section a:hover.featured#out-of-the-dungeon .image {
+        background-image: linear-gradient(transparent, transparent), url("../img/out-of-the-dungeon.png"); }
+      section a:hover.featured#science-in-the-sky .image {
+        background-image: linear-gradient(transparent, transparent), url("../img/science-in-the-sky.png"); }
+      section a:hover.featured#made-of-iiron .image {
+        background-image: linear-gradient(transparent, transparent), url("../img/made-of-iiron.png"); }
       section a:hover.featured#life-advice .image {
         background-image: linear-gradient(transparent, transparent), url("../img/life-advice.jpg"); }
-      section a:hover.featured#harmony .image {
-        background-image: linear-gradient(transparent, transparent), url("../img/harmony.jpg"); }
-      section a:hover.featured#unaware .image {
-        background-image: linear-gradient(transparent, transparent), url("../img/unaware.jpg"); }
-      section a:hover.featured#meet-artist .image {
-        background-image: linear-gradient(transparent, transparent), url("../img/meat-artist.jpg"); }
+      section a:hover.featured#wild-thing .image {
+        background-image: linear-gradient(transparent, transparent), url("../img/wild-thing.png"); }
+      section a:hover.featured#beyond-the-binary .image {
+        background-image: linear-gradient(transparent, transparent), url("../img/beyond-the-binary.png"); }
+      
       section a:hover.featured .image {
         background-size: cover;
         height: 250px; }
 
 footer {
-  font-family: "Proxima-Nova", Helvetica, sans-serif;
+  font-family: "Roboto", Helvetica, sans-serif;
   background-color: #501f84;
   color: white;
   height: 200px;

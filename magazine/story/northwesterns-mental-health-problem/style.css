@@ -1,0 +1,351 @@
+body {
+	margin: 0;
+	background-color: #e9f6ff;
+}
+
+/* PURPLE BAR, LOGO, COVER PHOTO */
+
+header {
+	padding: 0.5em;
+	height: 2.25em;
+	background-color: #501f84; /* this is NBN purple */
+	display: block;
+	width: 100%;
+	/*margin: 0 auto;*/
+}
+
+#logo {
+	width: 2.25em;
+}
+
+.cover-img{
+	width: 100%;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	height: auto;
+}
+
+/* HEADLINE, SUBHEAD, BYLINE AND HORIZONTAL RULE */
+
+#hed-dek {
+	margin-top: 5em;
+	width: 100%;
+	border-bottom: 1.5px solid #FFC1C1;
+}
+
+.important {
+	font-family: "Roboto";
+	color: #D9818E;
+	text-transform: uppercase;
+	font-size: 1.8em;
+	line-height: 1em;
+	/*font-style: italic;*/
+}
+
+h1 {
+	font-size: 4.5em;
+	font-family: "Roboto", sans-serif;
+	font-weight: 900;
+	text-transform: uppercase;
+	line-height: 0.9em;
+}
+
+h2 {
+	font-size: 1.1em;
+	font-family: "Roboto", sans-serif;
+	font-weight: 400;
+	font-size: 1.5em;
+}
+
+h3 {
+	font-family: "Roboto", sans-serif;
+	font-weight: 900;
+	font-size: 1.2em;
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+
+h3 a:hover {
+	text-decoration: underline;
+}
+
+hr {
+	width: 15em;
+	margin-bottom: 3em;
+}
+
+/* BODY */
+
+#container {
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	height: auto;
+	overflow: hidden;
+	position: relative;
+}
+
+#sidebar {
+	margin-top: 2em;
+	margin-left: 5px;
+	float: left;
+	width: 30%;
+	/*display: block;*/
+}
+
+#story-container {
+	float: right;
+	width: 65%;
+	margin-top: 5px;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    z-index: 100;
+}
+
+.body-text {
+	width: 90%;
+	font-family: "Georgia", serif;
+	font-size: 1.1em;
+	line-height: 1.8em;
+	border-bottom: 1px solid #a3a3a3;
+	padding: 1em 0;
+}
+
+#intro {
+	padding: 0;
+}
+
+.pink {
+	background-color: #FFC1C1;
+	padding: 0 0.35em;
+}
+
+.center {
+	width: 45%;
+	max-width: 630px;
+	margin: .75em auto .75em auto;
+}
+
+.side-piece {
+	font-family: "Roboto", serif;
+	font-weight: 700;
+	font-size: 1em;
+	padding: 5px;
+	margin: 0.5em 0;
+	position: relative;
+}
+
+.selected {
+	background-color: #FFC1C1;
+}
+
+.subhead {
+	font-weight: 700;
+	font-family: "Roboto", sans-serif;
+	text-transform: uppercase;
+	font-size: 1.5em;
+	color: #D9818E;
+}
+
+#what-can-we-do {
+	border: 0;
+}
+
+a {
+	text-decoration: none;
+	font-family: "Roboto", serif;
+	color: #333;
+}
+
+a:hover{
+	text-decoration: none;
+}
+
+p a {
+	font-family: Georgia, serif;
+	color: #D9818E;
+}
+
+p a:hover {
+	text-decoration: underline;
+}
+
+/* FOOTER BAR, FOOTER TEXT */
+
+footer {
+	padding-right: 0.5em;
+	height: 5em;
+	background-color: #501f84; /* this is NBN purple */
+	display: block;
+	width: 100%;
+	margin: 0 auto;
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+
+footer p {
+	color: #ffffff;
+	width: 45%;
+	max-width: 630px;
+	margin: .75em auto .75em auto;
+	font-size: 0.9em;
+	font-family: "Roboto", sans-serif;
+	line-height: 0.9em;
+} 
+
+footer p a {
+	color: #ffffff;
+	text-decoration: none;
+	font-family: "Roboto", sans-serif;
+}
+
+footer p a:hover {
+	text-decoration: underline;
+}
+
+/*media queries*/
+
+@media screen and (max-width: 780px) {
+	.side-piece {
+		font-size: 0.85em;
+	}
+
+	h1 {
+		font-size: 3.7em;
+	}
+
+	h2 {
+		font-size: 1.2em;
+	}
+
+	.body-text {
+		font-size: 1em;
+	}
+
+}
+
+@media screen and (max-width: 600px) {
+	#sidebar {
+		width: 25%;
+	}
+
+	h1{
+		font-size: 3em;
+	}
+
+	.body-text {
+		width: 80%;
+		margin: 0 auto;
+	}
+
+	footer {
+		padding-right: 0.5em;
+		height: 5em;
+		background-color: #501f84; /* this is NBN purple */
+		display: block;
+		width: 100%;
+		margin: 0 auto;
+		padding-top: 1em;
+		padding-bottom: 1em;
+	}
+
+	footer p {
+		width: 80%;
+
+	}
+}
+
+@media screen and (max-width: 560px) {
+	h1 {
+		text-align: center;
+	}
+
+	h2 {
+		text-align: center;
+		margin-top: 40px;
+	}
+
+	h3 {
+		text-align: center;
+	}
+
+	#sidebar {
+		display: none;
+	}
+
+	#story-container {
+		float: none;
+		width: 95%;
+	}
+}
+
+@media screen and (max-width: 475px) {
+	h1 {
+		font-size: 2.4em;
+		text-align: center;
+	}
+
+	h2 {
+		text-align: center;
+		margin-top: 40px;
+	}
+
+	h3 {
+		text-align: center;
+	}
+}
+
+@media screen and (max-width: 400px) {
+	h1 {
+		font-size: 2.15em;
+		text-align: center;
+	}
+
+	h2 {
+		text-align: center;
+		margin-top: 40px;
+	}
+
+	h3 {
+		text-align: center;
+	}
+
+	#story-container {
+		float: none;
+		width: 95%;
+	}
+}
+
+@media screen and (max-width: 350px) {
+	h1 {
+		font-size: 1.8em;
+		text-align: center;
+		margin-bottom: 40px;
+	}
+
+	h2 {
+		text-align: center;
+		margin-top: 40px;
+	}
+
+	h3 {
+		text-align: center;
+	}
+
+	.important {
+		font-size: 1.5em;
+	}
+
+	.body-text {
+		font-size: 0.85em;
+	}
+
+	footer p {
+		font-size: 0.8em;
+	}
+}
+

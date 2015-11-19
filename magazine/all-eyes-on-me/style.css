@@ -1,0 +1,406 @@
+body {
+	margin: 0;
+}
+
+/* PURPLE BAR, LOGO, COVER PHOTO */
+
+header {
+	padding: 0.5em;
+	height: 2.25em;
+	background-color: #501f84; /* this is NBN purple */
+	display: block;
+	margin: 0 auto;
+}
+
+#logo {
+	width: 2.25em;
+}
+
+.cover-img{
+	width: 100%;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	height: auto;
+}
+
+.caption {
+	color: #aaaaaa;
+	font-weight: 300;
+	font-size: 0.75em;
+	font-family: "Roboto", sans-serif;
+	text-align: right;
+	margin-top: 0px;
+	padding-right: 2em;
+}
+
+.caption a {
+	color: #501f84;
+}
+
+@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+
+.fade-in {
+  opacity:0;  /* make things invisible upon start */
+  -webkit-animation:fadeIn ease-in 1;  /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
+  -moz-animation:fadeIn ease-in 1;
+  animation:fadeIn ease-in 1;
+
+  -webkit-animation-fill-mode:forwards;  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+  -moz-animation-fill-mode:forwards;
+  animation-fill-mode:forwards;
+
+  -webkit-animation-duration:1s;
+  -moz-animation-duration:1s;
+  animation-duration:1s;
+}
+
+.fade-in.one {
+  -webkit-animation-delay: 0.3s;
+  -moz-animation-delay: 0.3s;
+  animation-delay: 0.3s;
+}
+
+.fade-in.two {
+  -webkit-animation-delay: 0.6s;
+  -moz-animation-delay:0.6s;
+  animation-delay: 0.6s;
+}
+
+.fade-in.three {
+  -webkit-animation-delay: 0.9s;
+  -moz-animation-delay: 0.9s;
+  animation-delay: 0.9s;
+}
+
+.fade-in.four {
+  -webkit-animation-delay: 1.2s;
+  -moz-animation-delay: 1.2s;
+  animation-delay: 1.2s;
+}
+
+.eye {
+	width: 24.5%;
+	display: inline-block;
+	float: left;
+	margin-right: 0.66%;
+	margin-top: 0.66%;
+	margin-bottom: 40px;
+}
+
+#right-eye {
+	margin-right: 0 !important;
+}
+
+/* HEADLINE, SUBHEAD, BYLINE AND HORIZONTAL RULE */
+
+#hed-dek {
+	width: 90%;
+	margin-right: auto;					/* NEW */
+	margin-left: auto;					/* NEW */
+	}
+
+h1 {
+	margin-bottom: 0.5em;
+	font-size: 5em;
+	font-family: "Roboto", sans-serif;					/* NEW */
+	font-weight: 900;					/* NEW */
+	text-transform: uppercase;
+	text-align: center;
+	color: #000000;					/* NEW */
+}
+
+h2 {
+	font-size: 1.1em;
+	text-align: center;
+	font-family: "Roboto", sans-serif;					/* NEW */
+	font-weight: 400;					/* NEW */
+	font-size: 1.5em;
+	background-color: rgba(255,255,255,0.5);
+}
+
+h3 {
+	text-align: center;
+	font-family: "Roboto", sans-serif;					/* NEW */
+	font-weight: 900;					/* NEW */
+	font-size: 1.2em;
+	text-align: center;
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+
+h3 a {
+	color: #000000;					/* NEW */
+}
+
+hr {
+	width: 10em;
+	margin-bottom: 3em;
+}
+
+/* BODY */
+
+.body-text {
+	width: 45%;
+	max-width: 630px;
+	margin: .75em auto .75em auto;
+	font-family: "Georgia", serif;
+	font-size: 1.1em;
+	line-height: 1.8em;
+}
+
+.center {
+	width: 45%;
+	max-width: 630px;
+	margin: .75em auto .75em auto;
+}
+
+.subhead {
+	font-weight: 900;					/* NEW */
+	font-family: "Roboto", sans-serif;					/* NEW */
+	text-transform: uppercase;
+	text-decoration: underline;
+	padding-top: 1.8em;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+/* IMAGES */
+
+.inline-img {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.inline-img-lg {
+	width: 65%;
+	max-width: 850px;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+figcaption {
+	color: #aaaaaa;
+	font-weight: 300;					/* NEW */
+	font-size: 0.9em;
+	font-family: "Roboto", sans-serif;					/* NEW */
+	line-height: 1.25em;
+}
+
+figure {
+	margin-top: 3em;
+	margin-bottom: 3em;
+}
+
+/* QUOTES */
+
+.quote {
+	display: block;
+	width: 300px;
+	color: #555555;
+	font-size: 1.25em;
+	font-weight: 300;					/* NEW */
+	line-height: 1.5em;
+	display: block;
+	font-family: "Roboto", sans-serif;					/* NEW */
+	margin-bottom: 40px;
+	margin-top: 40px;
+}
+
+.right{
+	float: right;
+	margin-right: 20%;
+	margin-left: 2em;
+	padding-left: 2em;
+	border-left: 1px solid #aaaaaa;
+	border-top: none;
+	border-bottom: none;
+	border-right: none;
+}
+
+.left {
+	float: left;
+	text-align: right;
+	margin-right: 2em;
+	margin-left: 20%;
+	padding-right: 2em;
+	border-right: 1px solid #aaaaaa;
+	border-top: none;
+	border-bottom: none;
+	border-left: none;
+}
+
+/* FOOTER BAR, FOOTER TEXT */
+
+footer {
+	padding-right: 0.5em;
+	height: 5em;
+	background-color: #501f84; /* this is NBN purple */
+	display: block;
+	margin: 0 auto;
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+
+footer p {
+	color: #ffffff;
+	width: 45%;
+	max-width: 630px;
+	margin: .75em auto .75em auto;
+	font-size: 0.9em;
+	font-family: "Roboto", sans-serif;					/* NEW */
+	font-weight: 400;					/* NEW */
+	line-height: 0.9em;
+} 
+
+footer p strong {
+	font-weight: 700;					/* NEW */
+}
+
+footer p a {
+	color: #ffffff;
+}
+
+
+
+/*media queries*/
+@media screen and (max-width: 600px) {
+	#hed-dek{
+		width: 90%;
+	}
+
+	h1{
+		width: 80% auto;					/* NEW */
+		font-size: 3em;
+		color: #000000;					/* NEW */
+	}
+
+	h2{
+		width: 85% auto;
+		margin-left: auto;
+		margin-right: auto;
+		font-size: 1.2em;
+		font-weight: 400;
+	}
+
+	.body-text {
+		width: 80%;
+	}
+
+	.inline-img, .inline-img-lg {
+		width: 125%;
+		margin-left: -12.5%;
+	}
+
+	figcaption.center {
+		width: 100%;
+	}
+
+	.quote {
+		display: block;
+		width: 50%;
+		color: #555555;
+		font-size: 1em;
+		line-height: 1.5em;
+		font-family: sans-serif;
+		text-align: center;
+	}
+	
+	.right {
+		border-top: 1px solid #aaaaaa;
+		border-bottom: 1px solid #aaaaaa;
+		border-right: none;
+		border-left: none;
+		padding-right: 1.3em;
+		margin-left: 1em;
+		margin-top: 1em;
+	}
+
+	.left {
+		border-top: 1px solid #aaaaaa;
+		border-bottom: 1px solid #aaaaaa;
+		border-right: none;
+		border-left: none;
+		padding-left: 1.3em;
+		margin-left: 4em;
+		margin-top: 1em;
+	}
+
+	footer {
+		padding-right: 0.5em;
+		height: 5em;
+		background-color: #501f84; /* this is NBN purple */
+		display: block;
+		margin: 0 auto;
+		padding-top: 1em;
+		padding-bottom: 1em;
+	}
+
+	footer p {
+		width: 80%;
+								/* ALL THE FOLLOWING IS NEW */
+
+	}
+}
+
+@media screen and (min-width: 600px) {
+	#hed-dek{
+		width: 80%;
+		padding-left: 10%;
+		padding-right: 10%;
+	}
+
+	h1{
+		font-size: 3em;
+		color: #000000;
+	}
+
+	h2 {
+		width: 70% auto;
+		margin-left: auto;
+		margin-right: auto;
+		font-size: 1.2em;
+		margin-top: 40px;
+		font-weight: 400;
+	}
+}
+
+@media screen and (min-width: 1024px) {
+	h1 {
+		font-size: 5em;
+		font-family: "Roboto", sans-serif;					/* NEW */
+		font-weight: 900;					/* NEW */
+		text-transform: uppercase;
+		text-align: center;
+		color: #000000;
+	}
+
+	h2 {
+		font-size: 1.1em;
+		text-align: center;
+		font-family: "Roboto", sans-serif;					/* NEW */
+		font-weight: 400;					/* NEW */
+		font-size: 1.5em;
+		background-color: rgba(255,255,255,0.5);
+	}
+
+	h3 {
+		text-align: center;
+		font-family: "Roboto", sans-serif;					/* NEW */
+		font-weight: 900;					/* NEW */
+		font-size: 1.2em;
+		text-align: center;
+		padding-top: 1em;
+		padding-bottom: 1em;
+	}
+}

@@ -1,0 +1,315 @@
+* {
+  margin: 0; }
+
+html,
+body {
+  height: 100%; }
+
+main {
+  margin-bottom: -75px;
+  min-height: 100%; }
+
+main:after {
+  content: '';
+  display: block; }
+
+footer,
+.page-wrap:after {
+  height: 75px; }
+
+figure {
+  margin-bottom: 1em;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 1em; }
+  .left figure figcaption {
+    text-align: left; }
+  figure img {
+    width: 100%;
+    margin: 0 !important; }
+
+.full-bleed {
+  margin: 2em 0; }
+  .full-bleed figure {
+    margin-top: 0;
+    margin-bottom: 0;
+    clear: both;
+    width: 100%;
+    height: auto; }
+    .full-bleed figure img {
+      width: 100%; }
+
+.img-grid {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
+  margin-bottom: 2em;
+  margin-top: 2em; }
+  .img-grid:last-child {
+    margin-right: 0; }
+  .img-grid figure {
+    -webkit-margin-end: 0;
+    -webkit-margin-start: 0;
+    margin-top: .5em;
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 48.82117%; }
+    .img-grid figure:last-child {
+      margin-right: 0; }
+    .img-grid figure:nth-child(2n) {
+      margin-right: 0; }
+    .img-grid figure:nth-child(2n+1) {
+      clear: left; }
+    @media screen and (max-width: 39.0625em) {
+      .img-grid figure {
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 100%; }
+        .img-grid figure:last-child {
+          margin-right: 0; }
+        .img-grid figure:nth-child(1n) {
+          margin-right: 0; }
+        .img-grid figure:nth-child(1n+1) {
+          clear: left; } }
+    .img-grid figure img {
+      width: 100%; }
+    .img-grid figure:nth-of-type(2n-1) figcaption {
+      text-align: left !important; }
+
+.masthead {
+  background-color: #501f84;
+  padding: .5em 0 .375em;
+  text-align: center;
+  width: 100%; }
+  @media screen and (min-width: 46.875em) {
+    .masthead {
+      text-align: left;
+      padding-left: .5em; } }
+  .masthead .nbn-logo {
+    height: 2em; }
+    .masthead .nbn-logo img {
+      height: 100%; }
+
+h1,
+h2 {
+  font-family: "ff-meta-serif-web-pro", Georgia, serif; }
+
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Roboto", Helvetica, sans-serif; }
+
+.prose {
+  font-family: "Roboto", Helvetica, sans-serif; }
+  .prose p {
+    margin-bottom: .75em;
+    margin-top: .75em; }
+
+.prose-justified {
+  text-align: justify; }
+
+.highlight {
+  background-color: #501f84;
+  box-shadow: -0.4em 0 0 #501f84, 0.4em 0 0 #501f84;
+  color: white;
+  line-height: 1.5;
+  padding: .25em 0; }
+
+q {
+  font-family: "ff-meta-serif-web-pro", Georgia, serif;
+  display: block;
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-bottom: 1.25em;
+  margin-top: 1.25em;
+  quotes: "“" "”" "‘" "’"; }
+  q:before, q:after {
+    content: none;
+    font-size: 2em; }
+  q p {
+    display: inline;
+    font-size: 1.2em;
+    margin: 0; }
+
+a {
+  color: #501f84;
+  text-decoration: none; }
+  a:hover {
+    text-decoration: underline; }
+
+html,
+body {
+  font-family: 'Roboto';
+  overflow-x: hidden !important;
+  width: auto !important; }
+
+.content-wrapper {
+  max-width: 68em;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1em; }
+  .content-wrapper:after {
+    content: "";
+    display: table;
+    clear: both; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Roboto'; }
+
+header {
+  margin-bottom: 2em;
+  text-align: center; }
+  header h1 {
+    font-size: 3em;
+    margin-bottom: 0; }
+  header h3 {
+    font-size: 2em;
+    margin-top: .25em; }
+  header div.prose {
+    margin-top: 2em;
+    text-align: center; }
+
+section {
+  padding-bottom: 3em;
+  padding-top: 3em; }
+  section:nth-of-type(odd) {
+    background-color: #ebebeb; }
+  section h6 {
+    font-size: 2em;
+    margin-bottom: 1.5em;
+    text-align: center; }
+  section a {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    border: 1px solid rgba(80, 31, 132, 0);
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 100%;
+    background-color: #fafafa;
+    display: block;
+    margin-bottom: .5em;
+    margin-top: .5em;
+    padding: 1em;
+    position: relative;
+    text-decoration: none; }
+    section a:last-child {
+      margin-right: 0; }
+    @media screen and (min-width: 37.5em) {
+      section a.featured {
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 65.88078%;
+        margin-left: 17.05961%; }
+        section a.featured:last-child {
+          margin-right: 0; } }
+    @media screen and (min-width: 46.875em) {
+      section a:not(.featured) {
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 48.82117%; }
+        section a:not(.featured):last-child {
+          margin-right: 0; }
+        section a:not(.featured):nth-child(2n) {
+          margin-right: 0; }
+        section a:not(.featured):nth-child(2n+1) {
+          clear: left; } }
+    section a h4 {
+      text-transform: uppercase;
+      font-weight: 600;
+      margin-bottom: 0.25em; }
+    section a h5 {
+      font-weight: 500;
+      font-size: 1em; }
+      section a h5.byline {
+        font-weight: 300;
+        font-size: .875em;
+        margin-top: 1em; }
+    section a.featured {
+      text-align: center; }
+      section a.featured .image {
+        -webkit-align-items: center;
+            -ms-flex-align: center;
+                align-items: center;
+        background-position: center center;
+        background-size: cover;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        height: 250px;
+        -webkit-justify-content: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        margin-bottom: 1em;
+        position: relative; }
+        section a.featured .image h2 {
+          color: #fff;
+          font-size: 1.75em;
+          font-weight: 900;
+          max-width: 75%;
+          text-transform: uppercase; }
+        section a.featured .image h5 {
+          text-transform: none; }
+      section a.featured#out-of-the-dungeon .image {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/out-of-the-dungeon.png"); }
+      section a.featured#science-in-the-sky .image {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/science-in-the-sky.png"); }
+      section a.featured#made-of-iiron .image {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/made-of-iiron.png"); }
+        section a.featured#northwesterns-mental-health-problem .image {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/northwesterns-mental-health-problem.jpg"); }
+      section a.featured#life-advice .image {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/life-advice.jpg"); }
+      section a.featured#wild-thing .image {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/wild-thing.png"); }
+      section a.featured#beyond-the-binary .image {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/beyond-the-binary.png");
+        background-position: center right; }
+    
+    section a:hover {
+      text-decoration: none;
+      border: 1px solid rgba(80, 31, 132, 0.2); }
+      section a:hover.featured#out-of-the-dungeon .image {
+        background-image: linear-gradient(transparent, transparent), url("../img/out-of-the-dungeon.png"); }
+      section a:hover.featured#science-in-the-sky .image {
+        background-image: linear-gradient(transparent, transparent), url("../img/science-in-the-sky.png"); }
+      section a:hover.featured#made-of-iiron .image {
+        background-image: linear-gradient(transparent, transparent), url("../img/made-of-iiron.png"); }
+      section a:hover.featured#life-advice .image {
+        background-image: linear-gradient(transparent, transparent), url("../img/life-advice.jpg"); }
+      section a:hover.featured#wild-thing .image {
+        background-image: linear-gradient(transparent, transparent), url("../img/wild-thing.png"); }
+      section a:hover.featured#beyond-the-binary .image {
+        background-image: linear-gradient(transparent, transparent), url("../img/beyond-the-binary.png"); }
+      
+      section a:hover.featured .image {
+        background-size: cover;
+        height: 250px; }
+
+footer {
+  font-family: "Roboto", Helvetica, sans-serif;
+  background-color: #501f84;
+  color: white;
+  height: 200px;
+  margin-top: 100px;
+  padding-bottom: .5em;
+  padding-top: .5em;
+  width: 100%; }
+  footer .credits p {
+    font-size: .875em;
+    line-height: 1.5em;
+    margin: 0; }
+  footer .credits a {
+    color: white; }

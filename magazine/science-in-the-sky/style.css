@@ -1,0 +1,436 @@
+html {
+	margin: 0;
+}
+
+body {
+	margin: 0;
+}
+
+/* PURPLE BAR, LOGO, COVER PHOTO */
+
+header {
+	padding: 0.5em 0;
+	height: 2.25em;
+	background-color: #501f84; /* this is NBN purple */
+	display: block;
+	margin: 0 auto;
+}
+
+#logo {
+	width: 2.25em;
+	padding-left: 0.5em;
+}
+
+.cover-img{
+	width: 100%;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	height: auto;
+}
+
+/* HEADLINE, SUBHEAD, BYLINE AND HORIZONTAL RULE */
+
+#hed-dek {
+	width: 90%;
+	margin-right: auto;					/* NEW */
+	margin-left: auto;					/* NEW */
+	}
+
+h1 {
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+	font-size: 5em;
+	font-family: "Roboto", sans-serif;					/* NEW */
+	font-weight: 900;					/* NEW */
+	text-transform: uppercase;
+	text-align: center;
+	color: #000000;					/* NEW */
+}
+
+.floating {
+	animation-name: floating;
+	-webkit-animation-name: floating;
+
+	animation-duration: 5s;	
+	-webkit-animation-duration: 5s;
+
+	animation-iteration-count: infinite;
+	-webkit-animation-iteration-count: infinite;
+}
+
+@keyframes floating {
+	0% {
+		transform: translateY(0%);	
+	}
+	50% {
+		transform: translateY(20%);	
+	}	
+	100% {
+		transform: translateY(0%);
+	}			
+}
+
+@-webkit-keyframes floating {
+	0% {
+		-webkit-transform: translateY(0%);	
+	}
+	50% {
+		-webkit-transform: translateY(20%);	
+	}	
+	100% {
+		-webkit-transform: translateY(0%);
+	}			
+}
+
+#shadow {
+	height: 20px;
+	background: rgba(102,102,102,1);
+	background: -moz-radial-gradient(center, ellipse cover, rgba(102,102,102,1) 0%, rgba(170,170,170,1) 0%, rgba(170,170,170,0) 59%);
+	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(102,102,102,1)), color-stop(0%, rgba(170,170,170,1)), color-stop(59%, rgba(170,170,170,0)));
+	background: -webkit-radial-gradient(center, ellipse cover, rgba(102,102,102,1) 0%, rgba(170,170,170,1) 0%, rgba(170,170,170,0) 59%);
+	background: -o-radial-gradient(center, ellipse cover, rgba(102,102,102,1) 0%, rgba(170,170,170,1) 0%, rgba(170,170,170,0) 59%);
+	background: -ms-radial-gradient(center, ellipse cover, rgba(102,102,102,1) 0%, rgba(170,170,170,1) 0%, rgba(170,170,170,0) 59%);
+	background: radial-gradient(ellipse at center, rgba(102,102,102,1) 0%, rgba(170,170,170,1) 0%, rgba(170,170,170,0) 59%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#666666', endColorstr='#aaaaaa', GradientType=1 );
+	width: 60%;
+	margin-left: 20%;
+}
+
+.pulse{
+	animation-name: pulse;
+	-webkit-animation-name: pulse;	
+
+	animation-duration: 5s;	
+	-webkit-animation-duration: 5s;
+
+	animation-iteration-count: infinite;
+	-webkit-animation-iteration-count: infinite;
+}
+
+@keyframes pulse {
+	0% {
+		transform: scale(0.9);
+		opacity: 0.7;		
+	}
+	50% {
+		transform: scale(1);
+		opacity: 1;	
+	}	
+	100% {
+		transform: scale(0.9);
+		opacity: 0.7;	
+	}			
+}
+
+@-webkit-keyframes pulse {
+	0% {
+		-webkit-transform: scale(0.95);
+		opacity: 0.7;		
+	}
+	50% {
+		-webkit-transform: scale(1);
+		opacity: 1;	
+	}	
+	100% {
+		-webkit-transform: scale(0.95);
+		opacity: 0.7;	
+	}			
+}
+
+h2 {
+	font-size: 1.1em;
+	text-align: center;
+	font-family: "Roboto", sans-serif;					/* NEW */
+	font-weight: 400;					/* NEW */
+	font-size: 1.5em;
+	background-color: rgba(255,255,255,0.5);
+}
+
+h3 {
+	text-align: center;
+	font-family: "Roboto", sans-serif;					/* NEW */
+	font-weight: 900;					/* NEW */
+	font-size: 1.2em;
+	text-align: center;
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+
+h3 a {
+	color: #000000;					/* NEW */
+}
+
+hr {
+	width: 10em;
+	margin-bottom: 3em;
+	margin-top: 3em;
+	border-color: rgb(16, 116, 188);
+}
+
+/* BODY */
+
+.body-text {
+	width: 45%;
+	max-width: 630px;
+	margin: .75em auto .75em auto;
+	font-family: "Georgia", serif;
+	font-size: 1.1em;
+	line-height: 1.8em;
+}
+
+.center {
+	width: 48.5%;
+	max-width: 630px;
+	margin: .75em auto .75em auto;
+}
+
+.subhead {
+	font-weight: 900;					/* NEW */
+	font-family: "Roboto", sans-serif;					/* NEW */
+	text-transform: uppercase;
+	text-decoration: underline;
+	padding-top: 1.8em;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+/* IMAGES */
+
+.inline-img {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.inline-img-lg {
+	width: 65%;
+	max-width: 850px;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+figcaption {
+	color: #aaaaaa;
+	font-weight: 300;					/* NEW */
+	font-size: 0.9em;
+	font-family: "Roboto", sans-serif;					/* NEW */
+	line-height: 1.25em;
+}
+
+figure {
+	margin-top: 3em;
+	margin-bottom: 3em;
+}
+
+/* QUOTES */
+
+.quote {
+	display: block;
+	width: 350px;
+	color: #555555;
+	font-size: 1.25em;
+	font-weight: 300;					/* NEW */
+	line-height: 1.5em;
+	display: block;
+	font-family: "Roboto", sans-serif;					/* NEW */
+	margin-bottom: 40px;
+	margin-top: 40px;
+}
+
+.right{
+	float: right;
+	margin-right: 8%;
+	margin-left: 2em;
+	padding-left: 2em;
+	border-left: 3px solid rgb(16, 116, 188);
+	border-top: none;
+	border-bottom: none;
+	border-right: none;
+}
+
+.left {
+	float: left;
+	text-align: right;
+	margin-right: 2em;
+	margin-left: 8%;
+	padding-right: 2em;
+	border-right: 3px solid rgb(16, 116, 188);
+	border-top: none;
+	border-bottom: none;
+	border-left: none;
+}
+
+/* FOOTER BAR, FOOTER TEXT */
+
+footer {
+	height: 5em;
+	background-color: #501f84; /* this is NBN purple */
+	display: block;
+	margin: 0 auto;
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+
+footer p {
+	color: #ffffff;
+	width: 45%;
+	max-width: 630px;
+	margin: .75em auto .75em auto;
+	font-size: 0.9em;
+	font-family: "Roboto", sans-serif;					/* NEW */
+	font-weight: 400;					/* NEW */
+	line-height: 0.9em;
+} 
+
+footer p strong {
+	font-weight: 700;					/* NEW */
+}
+
+footer p a {
+	color: #ffffff;
+}
+
+
+
+/*media queries*/
+@media screen and (max-width: 600px) {
+	#hed-dek{
+		width: 100%;
+	}
+
+	h1{
+		width: 80% auto 0 auto;					/* NEW */
+		font-size: 3em;
+		color: #000000;					/* NEW */
+		margin-top: 10px;					/* NEW */
+	}
+
+	h2{
+		width: 85%;
+		margin-left: auto;
+		margin-right: auto;
+		font-size: 1.2em;
+		font-weight: 400;
+	}
+
+	#shadow {
+		width: 100%;
+		margin-left: 0px;
+		margin-top: 40px;
+		margin-bottom: 40px;
+	}
+
+	.body-text {
+		width: 80%;
+	}
+
+	.inline-img, .inline-img-lg {
+		width: 125%;
+		margin-left: -12.5%;
+	}
+
+	figcaption.center {
+		width: 100%;
+	}
+
+	.quote {
+		display: block;
+		color: #555555;
+		font-size: 1em;
+		line-height: 1.5em;
+		font-family: sans-serif;
+		text-align: center;
+	}
+	
+	.right {
+		width: 70%;
+		border-top: 3px solid rgb(16, 116, 188);
+		border-bottom: 3px solid rgb(16, 116, 188);
+		border-right: none;
+		border-left: none;
+		padding-right: 1.3em;
+		margin-left: 1em;
+		margin-top: 1em;
+	}
+
+	.left {
+		width: 70%;
+		border-top: 3px solid rgb(16, 116, 188);
+		border-bottom: 3px solid rgb(16, 116, 188);
+		border-right: none;
+		border-left: none;
+		padding-left: 1.3em;
+		margin-left: 10%;
+		margin-top: 1em;
+	}
+	footer {
+		height: 5em;
+		background-color: #501f84; /* this is NBN purple */
+		display: block;
+		padding-top: 1em;
+		padding-bottom: 1em;
+	}
+
+	footer p {
+		width: 80%;					/* ALL THE FOLLOWING IS NEW */
+	}
+}
+
+@media screen and (min-width: 600px) {
+	#hed-dek{
+		width: 90%;
+	}
+
+	h1{
+		width: 85% auto 0 auto;
+		font-size: 3em;
+		color: #000000;
+	}
+
+	h2 {
+		width: 85%;
+		margin-left: auto;
+		margin-right: auto;
+		font-size: 1.2em;
+		margin-top: 40px;
+		font-weight: 400;
+	}
+}
+
+@media screen and (min-width: 1024px) {
+	h1 {
+		font-size: 5em;
+		font-family: "Roboto", sans-serif;					/* NEW */
+		font-weight: 900;					/* NEW */
+		text-transform: uppercase;
+		text-align: center;				/* NEW */
+		color: #000000;
+	}
+
+	h2 {
+		font-size: 1.1em;
+		text-align: center;
+		font-family: "Roboto", sans-serif;					/* NEW */
+		font-weight: 400;					/* NEW */
+		font-size: 1.5em;
+		background-color: rgba(255,255,255,0.5);
+	}
+
+	h3 {
+		text-align: center;
+		font-family: "Roboto", sans-serif;					/* NEW */
+		font-weight: 900;					/* NEW */
+		font-size: 1.2em;
+		text-align: center;
+		padding-top: 1em;
+		padding-bottom: 1em;
+	}
+}
